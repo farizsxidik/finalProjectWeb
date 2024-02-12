@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
+         <value>input[name=&quot;passwordInOrderPayment&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <value>//input[@name='passwordInOrderPayment']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3019abf9-a0e6-40cf-9378-705c9bbe5857</webElementGuid>
+      <webElementGuid>06d98b3a-d83b-454b-8d4f-5b7e4bdd448c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>0d126654-c3ef-4b34-8242-f38561114beb</webElementGuid>
+      <value>passwordInOrderPayment</value>
+      <webElementGuid>e14a0b00-b6ca-4694-a190-9f5cd9fb4b4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>8d6559e4-9b58-462d-b704-2e405cef856f</webElementGuid>
+      <value>password</value>
+      <webElementGuid>823d581c-99ae-4f9c-ac98-ccb2a036884b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-ng-model</name>
       <type>Main</type>
       <value>secModel</value>
-      <webElementGuid>b9b94996-e0f5-4356-b5e3-3d4e5a8d551f</webElementGuid>
+      <webElementGuid>3088ad75-245d-4dd9-b792-addb641a9728</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,18 +54,146 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine ng-untouched ng-valid ng-scope in-focus</value>
-      <webElementGuid>88b6fd04-e0de-4393-99c5-2196bc91d96d</webElementGuid>
+      <webElementGuid>1400d9fc-e073-42cc-922b-4f5c8681a150</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;ng-scope&quot;]/login-modal[1]/div[@class=&quot;PopUp&quot;]/div[1]/div[@class=&quot;login ng-scope&quot;]/sec-form[@class=&quot;ng-isolate-scope secForm&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope in-focus&quot;]</value>
-      <webElementGuid>e23ae8e6-3db0-48da-a5a1-c82148386de7</webElementGuid>
+      <value>id(&quot;orderPayment&quot;)/div[1]/div[1]/div[@class=&quot;noUserSection&quot;]/sec-form[@class=&quot;ng-isolate-scope secForm&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope in-focus&quot;]</value>
+      <webElementGuid>6956e406-306f-4b20-9aee-375921db5e86</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='passwordInOrderPayment']</value>
+      <webElementGuid>92e43ea8-3dd5-4d20-9216-7012bcf2ba39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='orderPayment']/div/div/div/sec-form/sec-view[2]/div/input</value>
+      <webElementGuid>d40c912a-9ea6-48d8-8179-449d222cfebf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/sec-form/sec-view[2]/div/input</value>
+      <webElementGuid>c2a7f951-be11-42e7-b9b8-21bc2bbbd118</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'passwordInOrderPayment' and @type = 'password']</value>
+      <webElementGuid>adb87d9a-3069-45a6-9ecd-4d5c0f6f778e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'usernameInOrderPayment' and @type = 'text']</value>
+      <webElementGuid>217242ac-9258-4d53-8deb-68b5ad10f6e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='usernameInOrderPayment']</value>
+      <webElementGuid>052737a8-e704-4153-9b82-3702885fc80e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='orderPayment']/div/div/div/sec-form/sec-view/div/input</value>
+      <webElementGuid>0fdc90e5-0546-4ea9-b18f-ddaf9c1ec97d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/sec-form/sec-view/div/input</value>
+      <webElementGuid>4d5a0c83-e57d-4d8b-ab99-13cf7796db74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='cardholder_name']</value>
+      <webElementGuid>729e9571-481d-4efa-845d-68d45a74849c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='paymentMethod']/div/div[4]/sec-form/div[2]/sec-view/div/input</value>
+      <webElementGuid>737a5f4c-25e0-42c9-94c1-56e6a010c606</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/sec-form/div[2]/sec-view/div/input</value>
+      <webElementGuid>5bca27a4-82e9-4c7d-ab34-e5c16291f350</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'cardholder_name' and @type = 'text']</value>
+      <webElementGuid>ed787ea9-f424-4665-a648-edcd34065ede</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='cvv_number']</value>
+      <webElementGuid>be7e82bd-4fdd-4f58-8199-5a378b2594d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='paymentMethod']/div/div[4]/sec-form/div/sec-view[2]/div/input</value>
+      <webElementGuid>5d0321ba-1394-4c56-97e0-b561cc7505b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/sec-form/div/sec-view[2]/div/input</value>
+      <webElementGuid>edc72106-7314-49d3-87ac-8abc9e6f873c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'cvv_number' and @type = 'text']</value>
+      <webElementGuid>970aecef-d6d6-4cde-b02c-8ef6a43c491f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

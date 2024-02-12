@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>4fabe028-0830-43d7-a1ea-ff178edd3169</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;Master credit&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='paymentMethod']/div/div/div[2]/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>fb80578a-73d2-4fa7-b673-56fe0a1efc3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>css/images/Master_credit.png</value>
+      <webElementGuid>00dbfacb-b065-4cd6-b451-a85b292d383e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Master credit</value>
+      <webElementGuid>de4b6065-536e-4d5f-8098-37e8a3a963d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;paymentMethod&quot;)/div[1]/div[@class=&quot;paymentMethods&quot;]/div[@class=&quot;imgRadioButton&quot;]/img[1]</value>
+      <webElementGuid>b83c6deb-f08a-46d0-8942-013cef15b374</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='paymentMethod']/div/div/div[2]/img</value>
+      <webElementGuid>305df3cd-e440-4915-9b07-38a60ccd91ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Master credit']</value>
+      <webElementGuid>48a6888e-7856-48e7-9845-11b1ed065d8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/img</value>
+      <webElementGuid>aee7bcdd-b167-4e42-b5a0-3f8094f2a027</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'css/images/Master_credit.png' and @alt = 'Master credit']</value>
+      <webElementGuid>0e5baf1b-873b-4c1c-b6b0-3626ba6c47c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

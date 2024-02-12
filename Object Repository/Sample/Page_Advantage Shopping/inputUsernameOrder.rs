@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputUsernameOrder</name>
+   <tag></tag>
+   <elementGuidId>c6ed5260-f6b9-45d3-a626-54a7091a2834</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name = 'usernameInOrderPayment' and @type = 'text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>084ff9f3-d48b-4740-bd1f-f5a6cf9338b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>usernameInOrderPayment</value>
+      <webElementGuid>a517d324-96d4-4daf-9a39-9f103c766ce2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>8842403e-be15-4cfd-b975-0b72690f771f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-model</name>
+      <type>Main</type>
+      <value>secModel</value>
+      <webElementGuid>45821e56-6133-4755-aa88-7058719ed6bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-untouched ng-valid ng-scope invalid</value>
+      <webElementGuid>2dd20d91-9321-4685-9155-fded89fdadb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;uiview ng-scope&quot;]/section[@class=&quot;ng-scope&quot;]/article[1]/div[@id=&quot;orderPayment&quot;]/div[1]/div[1]/div[@class=&quot;noUserSection&quot;]/sec-form[@class=&quot;ng-isolate-scope secForm&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope invalid&quot;]</value>
+      <webElementGuid>13e51a5a-f6cc-493d-854d-c3a59f16923d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'usernameInOrderPayment' and @type = 'text']</value>
+      <webElementGuid>6949a143-b314-4b7f-8a3d-80c68aab50dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

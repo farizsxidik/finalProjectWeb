@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Sample Data User</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>56f390c6-07e6-47cc-9b16-ef94c5d479e5</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>ohncena johncena%40gmail.com Password%401 Password%401</data>
+   <data>triandika triandika%40user.com Password%401 Password%401</data>
+   <data>rizkyayi rizkyayi%40user.com Password%401 Password%401</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>username</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>email</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>password</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>confirmPassword</name>
+      <size>3</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

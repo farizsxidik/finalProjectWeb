@@ -20,34 +20,29 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 
-
-
-
-
-
-
-
-
 WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/a_CHECKOUT  (0.00)_hrefUserIcon'))
+String productCategory = 'TABLETS' // Misalnya kita ingin membuka kategori Tablets
 
-WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/a_CREATE NEW ACCOUNT'))
-
-WebUI.setText(findTestObject('Object Repository/Regis/Page_Advantage Shopping/usernameRegister'), username)
-
-WebUI.setText(findTestObject('Object Repository/Regis/Page_Advantage Shopping/emailRegister'), email)
-
-WebUI.setText(findTestObject('Object Repository/Regis/Page_Advantage Shopping/passwordRegister'), password)
-
-WebUI.setText(findTestObject('Object Repository/Regis/Page_Advantage Shopping/confirmPasswordRegister'),
-	confirmPassword)
-
-//WebUI.setEncryptedText(findTestObject('Object Repository/Page_Advantage Shopping/input_Confirm password_confirm_passwordRegi_51cd5c'), 
-//    'p4y+y39Ir5OTdtOb306gDg==')
-
-
-WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450'))
-
-WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/button_REGISTER'))
-
+switch (productCategory) { 
+	case 'TABLETS':
+		WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/categoryTablets'))
+		WebUI.comment('Navigasi ke halaman Tablets.')
+		break
+	case 'LAPTOPS':
+		WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/categoryLaptops'))
+		WebUI.comment('Navigasi ke halaman Laptops.')
+		break
+	case 'HEADPHONES':
+		WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/categoryHeadphones'))
+		WebUI.comment('Navigasi ke halaman Headphones.')
+		break
+	case 'MICE':
+		WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/categoryMice'))
+		WebUI.comment('Navigasi ke halaman Mice.')
+	case 'SPEAKERS':
+		WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/categorySpeakers'))
+		WebUI.comment('Navigasi ke halaman Speakers.')
+	default:
+		WebUI.comment('Kategori produk tidak dikenali.')
+}

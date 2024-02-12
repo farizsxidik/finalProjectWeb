@@ -19,35 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-
-
-
-
-
-
-
-
-
 WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/a_CHECKOUT  (0.00)_hrefUserIcon'))
+WebUI.callTestCase(findTestCase('Product Browsing'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/a_CREATE NEW ACCOUNT'))
+WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/li_SOLD OUT                                _12ddb2'))
 
-WebUI.setText(findTestObject('Object Repository/Regis/Page_Advantage Shopping/usernameRegister'), username)
+WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/span_Color_rabbit'))
 
-WebUI.setText(findTestObject('Object Repository/Regis/Page_Advantage Shopping/emailRegister'), email)
+WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/div_Quantity_plus'))
 
-WebUI.setText(findTestObject('Object Repository/Regis/Page_Advantage Shopping/passwordRegister'), password)
+WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/button_ADD TO CART'))
 
-WebUI.setText(findTestObject('Object Repository/Regis/Page_Advantage Shopping/confirmPasswordRegister'),
-	confirmPassword)
+WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/button_CHECKOUT  (2,018.00)'))
 
-//WebUI.setEncryptedText(findTestObject('Object Repository/Page_Advantage Shopping/input_Confirm password_confirm_passwordRegi_51cd5c'), 
-//    'p4y+y39Ir5OTdtOb306gDg==')
+WebUI.setText(findTestObject('Object Repository/Sample/Page_Advantage Shopping/inputUsernameOrder'), 'advantageuser1')
 
+WebUI.setEncryptedText(findTestObject('Object Repository/Sample/Page_Advantage Shopping/inputPasswordOrder'), 'p4y+y39Ir5OTdtOb306gDg==')
 
-WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450'))
+WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/button_LOGIN'))
 
-WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/button_REGISTER'))
+WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/button_NEXT'))
+
+WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/button_PAY NOW'))
 

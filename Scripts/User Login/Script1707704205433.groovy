@@ -23,9 +23,23 @@ WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/a_My account                        My orde_124641'))
 
-WebUI.setText(findTestObject('Object Repository/Sample/Page_Advantage Shopping (1)/InputUsername'), 'advantageuser1')
+String expectedUsername = 'advantageuser1'
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Sample/Page_Advantage Shopping (1)/InputPassword'), 'p4y+y39Ir5OTdtOb306gDg==')
+WebUI.setText(findTestObject('Object Repository/Sample/Page_Advantage Shopping/InputUsername'), expectedUsername)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Sample/Page_Advantage Shopping/InputPassword'), 'p4y+y39Ir5OTdtOb306gDg==')
 
 WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/button_SIGN IN'))
+
+String actualUsername = WebUI.getText(findTestObject('Object Repository/Sample/Page_Advantage Shopping/userLogin'))
+
+if (actualUsername.equals(expectedUsername)) {
+	WebUI.comment('Username sesuai dengan yang diharapkan.')
+} else {
+	WebUI.comment('Username tidak sesuai. Diharapkan: ' + expectedUsername + ', tapi ditemukan: ' + actualUsername)
+}
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Sample/Page_Advantage Shopping/userLogin'))
+
+
 

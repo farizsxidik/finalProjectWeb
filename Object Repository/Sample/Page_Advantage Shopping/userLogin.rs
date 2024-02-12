@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>userLogin</name>
+   <tag></tag>
+   <elementGuidId>16871bd1-3caf-40dc-ab19-6b91970ec780</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.hi-user.containMiniTitle.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menuUserLink']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c8ed9ed6-7883-495c-a425-1eb28bde0818</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-show</name>
+      <type>Main</type>
+      <value>userCookie.response</value>
+      <webElementGuid>e4563fd6-47cd-4c52-8fea-cd3afc1480ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hi-user containMiniTitle ng-binding</value>
+      <webElementGuid>75fded39-1a8e-468d-bfc3-a0e1d081d2e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>advantageuser1</value>
+      <webElementGuid>786755c0-59b5-4ca5-a497-6fc9445c5f73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menuUserLink&quot;)/span[@class=&quot;hi-user containMiniTitle ng-binding&quot;]</value>
+      <webElementGuid>9f3dffcf-8726-43a3-a3bf-9a09c8202d3f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='menuUserLink']/span</value>
+      <webElementGuid>db4a26e8-d299-40ec-bec5-0bf35a74a7b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0.00'])[1]/following::span[1]</value>
+      <webElementGuid>3f451813-953d-4d38-a14b-849685e9c3f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My account'])[2]/preceding::span[1]</value>
+      <webElementGuid>b5fe2736-7b0b-498d-b67c-27f3d83207d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My orders'])[2]/preceding::span[1]</value>
+      <webElementGuid>ad47f35d-69bd-4758-a87d-24ec31bcda6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/ul/li[3]/a/span</value>
+      <webElementGuid>da34de2a-468f-4206-96ac-54ee22999cb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'advantageuser1' or . = 'advantageuser1')]</value>
+      <webElementGuid>216b4b6c-a39e-4a7f-b2fa-49354385b25f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

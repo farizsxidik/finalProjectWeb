@@ -5,4 +5,56 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>84f9093a-23f4-454a-aa8c-3d6e9c9d269c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4db1dd88-b5b1-4342-aa64-139a4b418be8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>586592d2-aca8-44c0-b26b-f1f3d590858c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fed1bb44-3243-4dd6-8ac4-44a0d9bc3d03</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>540d6a12-159a-4e98-9ce5-17ee191f7deb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4db1dd88-b5b1-4342-aa64-139a4b418be8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>586592d2-aca8-44c0-b26b-f1f3d590858c</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fed1bb44-3243-4dd6-8ac4-44a0d9bc3d03</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>540d6a12-159a-4e98-9ce5-17ee191f7deb</id>
+      <masked>false</masked>
+      <name>confirmPassword</name>
+   </variable>
 </TestCaseEntity>
