@@ -21,5 +21,3 @@ Step-by-step guide on executing the tests within this collection.
 ## Additional Resources
 For more detailed steps, results, and video demonstrations, visit our [Google Drive](https://drive.google.com/drive/u/0/folders/10Vz7DphmeERQyYBYXRUUboSQQt980NTP).
 
-## Contact
-For queries or further information, please contact [Your Email/Contact Information].
