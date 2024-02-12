@@ -1,4 +1,4 @@
-# Final Project: End-to-End Shopping Experience
+# Final Project: Basic Shopping Test
 
 ## Overview
 Brief introduction to the project and its objectives, highlighting the automated testing of an online shopping platform covering key functionalities.
